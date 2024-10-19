@@ -34,8 +34,8 @@ function renderTasks(data) {
         tableLayout += ` <tr>
                             <td>${data[i].task}</td>
                             <td>${data[i].completed}</td>
-                            <td> <button onclick="patchTask(${data[i].id})" class="btn btn-warning">Task completed</button></td>
-                            <td> <button onclick="deleteTask(${data[i].id})" class="btn btn-danger">Delete</button></td>
+                            <td> <button onclick="patchTask(${data[i].id})" class="btn btn-warning"><i class="fa-solid fa-check"></i></button></td>
+                            <td> <button onclick="deleteTask(${data[i].id})" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
                         <tr> `
 
     }
